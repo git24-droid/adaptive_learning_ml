@@ -1,0 +1,90 @@
+[
+  {
+    "question": "How does SLAM work in robotics?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the attention mechanism?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Derive the backpropagation algorithm from first principles.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is Python?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of dropout in neural networks?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is an epoch in deep learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Explain the difference between precision and recall.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Explain meta-learning and few-shot generalisation.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Design an online learning system that adapts to concept drift in real time.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Explain the role of temperature in softmax sampling.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does batch normalization improve training?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is an action server in ROS?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What are the trade-offs between exact and approximate nearest neighbor search?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is deep learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does a convolutional neural network process images?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How would you implement curriculum learning for a robot manipulation task?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a vector?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between policy gradient and Q-learning?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is accuracy in ML?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Explain the bias-variance tradeoff.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a label in machine learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is artificial intelligence?",
+    "difficulty": "easy"
+  }
+]

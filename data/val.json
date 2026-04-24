@@ -1,0 +1,90 @@
+[
+  {
+    "question": "How do you detect and handle covariate shift in production ML?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does a decision tree split nodes?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Derive the update rule for policy gradient methods.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does mini-batch gradient descent differ from full-batch?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between L1 and L2 loss?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of momentum in optimisers?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is supervised learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does spectral clustering relate to graph Laplacians?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is gradient descent?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is ROS?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a recurrent neural network?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you compute Shapley values for model explainability?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a string in programming?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does data augmentation prevent overfitting?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a bias term?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How would you implement a distributed training pipeline with PyTorch DDP?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does the PageRank algorithm relate to Markov chain stationary distribution?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is tokenization in NLP?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the tf package in ROS?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Explain how DBSCAN clustering works.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a function in programming?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does a GAN training loop work?",
+    "difficulty": "medium"
+  }
+]

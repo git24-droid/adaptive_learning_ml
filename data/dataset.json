@@ -1,0 +1,1026 @@
+[
+  {
+    "question": "Walk through the technical details: explain how xgboost handles missing values during tree construction.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the F1 score?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In simple terms, what is a hyperparameter?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Go in depth: explain the connection between dropout and approximate bayesian inference.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Can you define: what is a publisher in ros?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Walk through the technical details: what causes mode collapse in gans and how is it mitigated?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Summarise: how does a neural network learn?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Walk through the technical details: explain how rlhf fine-tuning works at the gradient level.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Can you define: what is attention in transformers?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Give a concise explanation: what is a kernel trick in svms?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a concise explanation: what is transfer learning and when is it used?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Summarise: what is the f1 score?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Derive the gradient of the cross-entropy loss with softmax in one pass.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Derive the ELBO loss used in VAE training.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Summarise: how does beam search work in sequence generation?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a for loop?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Explain encoder-decoder architecture.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Explain how neural architecture search works.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you choose a learning rate?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a concise explanation: what is the elo rating system used for?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In simple terms, what is a neural network?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does knowledge distillation transfer model capacity?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Summarise: explain how a vae differs from a standard autoencoder.?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you implement a custom CUDA kernel for a PyTorch operation?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does EM algorithm guarantee monotone likelihood improvement?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a hyperparameter?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Summarise: what is a latent space?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Go in depth: explain the mathematical relationship between kl divergence and mutual information.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Provide a rigorous explanation: how does continual learning avoid catastrophic forgetting?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Explain the connection between dropout and approximate Bayesian inference.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In simple terms, what does cpu stand for?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Walk through the technical details: design a fault-tolerant ros architecture for a surgical robot.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a matrix?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Go in depth: how does knowledge distillation transfer model capacity?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Provide a rigorous explanation: explain the information-theoretic basis of minimum description length.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Summarise: what is a residual connection?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Walk through the technical details: derive the gradient of the cross-entropy loss with softmax in one pass.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Can you define: what is linear regression?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Give a one-sentence answer: what is a node in ros?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Briefly explain: what is attention mechanism in nlp?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Summarise: what is a confusion matrix and how do you read it?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Can you define: what is a feature in machine learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Explain the mathematical relationship between KL divergence and mutual information.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a boolean?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a residual connection?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Briefly explain: what is the difference between ik and fk in robotics?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Summarise: how is bayesian inference different from frequentist?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is machine learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Can you define: what is normalisation in preprocessing?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is transfer learning and when is it used?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In simple terms, what is a dataset?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the mathematical basis of Gaussian processes?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Give a one-sentence answer: what is an api?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Briefly explain: what is cosine similarity and where is it used?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a neural network?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does the transformer positional encoding work?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the Elo rating system used for?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Go in depth: how does curriculum learning schedule training difficulty?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Summarise: how does dropout work during inference?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How is Bayesian inference different from frequentist?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the Cram\u00e9r-Rao lower bound and how does it apply to estimators?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Can you define: what is a training set?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Explain the information-theoretic basis of minimum description length.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In simple terms, what is machine learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Explain how XGBoost handles missing values during tree construction.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does continual learning avoid catastrophic forgetting?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Can you define: what is a chatbot?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is normalisation in preprocessing?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a subscriber in ROS?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is overfitting?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Go in depth: prove that the vc dimension of a linear classifier in r^d is d+1.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Give a concise explanation: how does q-learning update its policy?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between bagging and boosting?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Can you define: what is a variable in programming?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is an embedding?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Provide a rigorous explanation: how does the transformer self-attention mechanism avoid recurrence?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is gradient descent?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Derive the posterior distribution in Bayesian linear regression.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Provide a rigorous explanation: what are the convergence guarantees of stochastic gradient descent?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Summarise: how are quaternions used in robot orientation?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Walk through the technical details: how would you design a real-time slam system with loop closure?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a latent space?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How would you debug a ROS2 node with intermittent message drops under load?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Go in depth: what is multi-head attention and why use multiple heads?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of an activation function?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How are quaternions used in robot orientation?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does backpropagation work?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Go in depth: how does flash attention reduce memory complexity in transformers?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the difference between RNN and LSTM?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Go in depth: how does the kalman filter update step work in state estimation?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Summarise: how does word2vec learn embeddings?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does principal component analysis reduce dimensions?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Briefly explain: how do you evaluate a generative model?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Design a fault-tolerant ROS architecture for a surgical robot.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Give a concise explanation: what is annealing in the context of training schedules?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a publisher in ROS?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Briefly explain: explain how a random forest makes predictions.?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a feature in machine learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Give a concise explanation: how does k-fold cross-validation work?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a one-sentence answer: what is a test set?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is classification in ML?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is an API?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a confusion matrix and how do you read it?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of the ROS master?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is attention in transformers?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What are the convergence guarantees of stochastic gradient descent?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is annealing in the context of training schedules?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Provide a rigorous explanation: derive the fisher information matrix and its role in natural gradient descent.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Summarise: what is the role of the ros master?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Explain the difference between model capacity and generalisation.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Briefly explain: how does principal component analysis reduce dimensions?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does the Kalman filter update step work in state estimation?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Can you define: what is a loss function?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In simple terms, what is classification in ml?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a prior in Bayesian inference?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How would you design a real-time SLAM system with loop closure?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is linear regression?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a weight in ML?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does word2vec learn embeddings?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is attention mechanism in NLP?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a neural network layer?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a node in ROS?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Give a one-sentence answer: what is a subscriber in ros?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between a service and a topic in ROS?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a concise explanation: what is the softmax function used for?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Briefly explain: how does the adam optimizer differ from sgd?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a concise explanation: what is the purpose of an activation function?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a dataset?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does weight initialisation affect training?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a concise explanation: how does lstm handle long-range dependencies?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Summarise: how do you choose a learning rate?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Derive the Fisher information matrix and its role in natural gradient descent.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a chatbot?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Go in depth: derive the posterior distribution in bayesian linear regression.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a test set?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Go in depth: how does em algorithm guarantee monotone likelihood improvement?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Walk through the technical details: explain how the attention mechanism in transformers scales with sequence length.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Walk through the technical details: derive the elbo loss used in vae training.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In simple terms, what is a neural network layer?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Give a one-sentence answer: what is a topic in ros?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a training set?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Explain how a random forest makes predictions.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Explain how MuZero learns a world model without explicit rules.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a hyperparameter?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Give a concise explanation: what is the difference between a service and a topic in ros?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does a neural network learn?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How is a weighted average computed in ensemble methods?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What causes mode collapse in GANs and how is it mitigated?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Go in depth: explain how muzero learns a world model without explicit rules.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does Q-learning update its policy?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does curriculum learning schedule training difficulty?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does the transformer self-attention mechanism avoid recurrence?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does LSTM handle long-range dependencies?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a sensor in robotics?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In simple terms, what does ros stand for?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Give a concise explanation: what is the difference between bagging and boosting?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Walk through the technical details: how would you debug a ros2 node with intermittent message drops under load?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Can you define: what is a weight in ml?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is multi-head attention and why use multiple heads?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the softmax function used for?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Go in depth: explain how neural architecture search works.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Give a concise explanation: explain the difference between model capacity and generalisation.?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you evaluate a generative model?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a concise explanation: how does weight initialisation affect training?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Summarise: how does the transformer positional encoding work?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a loss function?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Briefly explain: what is a prior in bayesian inference?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Explain how the attention mechanism in Transformers scales with sequence length.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Derive the update equations for a Hidden Markov Model using Baum-Welch.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is gradient clipping and when should you use it?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does ROS stand for?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Summarise: how is a weighted average computed in ensemble methods?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is cosine similarity and where is it used?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is regularization and why is it used?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a variable in programming?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does CPU stand for?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Give a one-sentence answer: what is a matrix?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In simple terms, what is a boolean?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does k-fold cross-validation work?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Explain the mathematical foundation of variational autoencoders.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of validation data?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Provide a rigorous explanation: derive the update equations for a hidden markov model using baum-welch.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the difference between IK and FK in robotics?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a concise explanation: what is the difference between rnn and lstm?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a one-sentence answer: what is a for loop?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Walk through the technical details: what is the cram\u00e9r-rao lower bound and how does it apply to estimators?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the vanishing gradient problem?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Summarise: how does backpropagation work?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a topic in ROS?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Go in depth: what is the mathematical basis of gaussian processes?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Give a one-sentence answer: what is gradient descent?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does dropout work during inference?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a concise explanation: explain encoder-decoder architecture.?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is an integer?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Can you define: what is an integer?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In simple terms, what is overfitting?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Give a one-sentence answer: what is an embedding?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a kernel trick in SVMs?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does flash attention reduce memory complexity in transformers?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Briefly explain: what is gradient clipping and when should you use it?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a one-sentence answer: what is a sensor in robotics?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Can you define: what is a hyperparameter?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Go in depth: how do you implement a custom cuda kernel for a pytorch operation?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Go in depth: explain the mathematical foundation of variational autoencoders.?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Prove that the VC dimension of a linear classifier in R^d is d+1.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Give a one-sentence answer: what is the purpose of validation data?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Explain how RLHF fine-tuning works at the gradient level.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Briefly explain: what is the vanishing gradient problem?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Give a concise explanation: what is regularization and why is it used?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does beam search work in sequence generation?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does the Adam optimizer differ from SGD?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Explain how a VAE differs from a standard autoencoder.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you detect and handle covariate shift in production ML?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does a decision tree split nodes?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Derive the update rule for policy gradient methods.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does mini-batch gradient descent differ from full-batch?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between L1 and L2 loss?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of momentum in optimisers?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is supervised learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does spectral clustering relate to graph Laplacians?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is gradient descent?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is ROS?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a recurrent neural network?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you compute Shapley values for model explainability?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a string in programming?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does data augmentation prevent overfitting?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a bias term?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How would you implement a distributed training pipeline with PyTorch DDP?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does the PageRank algorithm relate to Markov chain stationary distribution?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is tokenization in NLP?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the tf package in ROS?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Explain how DBSCAN clustering works.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a function in programming?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does a GAN training loop work?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does SLAM work in robotics?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the attention mechanism?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Derive the backpropagation algorithm from first principles.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is Python?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of dropout in neural networks?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is an epoch in deep learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Explain the difference between precision and recall.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Explain meta-learning and few-shot generalisation.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Design an online learning system that adapts to concept drift in real time.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Explain the role of temperature in softmax sampling.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does batch normalization improve training?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is an action server in ROS?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What are the trade-offs between exact and approximate nearest neighbor search?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is deep learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does a convolutional neural network process images?",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How would you implement curriculum learning for a robot manipulation task?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a vector?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between policy gradient and Q-learning?",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is accuracy in ML?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Explain the bias-variance tradeoff.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a label in machine learning?",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is artificial intelligence?",
+    "difficulty": "easy"
+  }
+]
