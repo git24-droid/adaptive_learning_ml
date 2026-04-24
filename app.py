@@ -49,36 +49,41 @@ st.set_page_config(
 
 # ─── Global CSS Upgrade (Clean & Professional) ────────────────────────────────
 
-# ─── Aggressive Custom CSS Override ───────────────────────────────────────────
-
 st.markdown("""
 <style>
-/* 1. Hide default Streamlit top header and adjust main padding */
-[data-testid="stHeader"] { visibility: hidden; height: 0%; }
-.block-container { padding-top: 2rem !important; padding-bottom: 2rem !important; max-width: 1100px; }
-#MainMenu {visibility: hidden;}
+
+/* ===== DO NOT HIDE HEADER (keeps sidebar toggle working) ===== */
+/* Removed: [data-testid="stHeader"] { visibility: hidden; } */
+
+/* Clean layout */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1100px;
+}
+
+/* Hide footer only (safe) */
 footer {visibility: hidden;}
 
-/* 2. Custom App Background (Sleek off-white) */
+/* App background */
 [data-testid="stAppViewContainer"] {
     background-color: #f4f7f9;
 }
 
-/* 3. Custom Sidebar (Pure white with subtle shadow) */
+/* Sidebar styling (SAFE) */
 [data-testid="stSidebar"] {
     background-color: #ffffff;
     border-right: 1px solid #e2e8f0;
-    box-shadow: 2px 0 15px rgba(0,0,0,0.03);
 }
 
-/* 4. Overhaul Expanders (Make them look like floating cards) */
+/* Expander cards */
 [data-testid="stExpander"] {
     background: #ffffff;
     border: 1px solid #e2e8f0 !important;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-    overflow: hidden;
 }
+
 [data-testid="stExpander"] summary {
     background-color: #fafbfc;
     padding: 10px 15px;
@@ -86,64 +91,51 @@ footer {visibility: hidden;}
     border-bottom: 1px solid #f1f5f9;
 }
 
-/* 5. Custom File Uploader */
+/* File uploader */
 [data-testid="stFileUploadDropzone"] {
     background-color: #f8fafc;
     border: 2px dashed #cbd5e1;
     border-radius: 10px;
-    transition: all 0.2s ease;
 }
+
 [data-testid="stFileUploadDropzone"]:hover {
-    background-color: #f1f5f9;
     border-color: #3b82f6;
 }
 
-/* 6. Typography overrides */
+/* Typography */
 h1, h2, h3 {
     color: #1e293b;
     font-weight: 800;
-    letter-spacing: -0.5px;
 }
 
-/* 7. Retain Your Custom Badges & Feedback Boxes */
-.badge-easy   { background: #ecfdf5; color: #059669; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; border: 1px solid #a7f3d0; }
-.badge-medium { background: #fffbeb; color: #d97706; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; border: 1px solid #fde68a; }
-.badge-hard   { background: #fef2f2; color: #dc2626; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; border: 1px solid #fecaca; }
-
-.feedback-correct { background: #f0fdf4; color: #15803d; border-left: 4px solid #22c55e; padding:12px 16px; border-radius:6px; margin-top:8px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
-.feedback-wrong   { background: #fef2f2; color: #b91c1c; border-left: 4px solid #ef4444; padding:12px 16px; border-radius:6px; margin-top:8px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
-
-/* 8. Modern Buttons */
+/* Buttons */
 div[data-testid="stButton"] > button {
     width: 100%;
-    text-align: left;
-    padding: 10px 16px;
     border-radius: 8px;
     font-weight: 600;
     background-color: #ffffff;
-    color: #334155;
     border: 1px solid #cbd5e1;
-    transition: all 0.2s;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-}
-div[data-testid="stButton"] > button:hover {
-    border-color: #3b82f6;
-    color: #1d4ed8;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
 }
 
-/* 9. Standalone Metric Cards */
+div[data-testid="stButton"] > button:hover {
+    border-color: #3b82f6;
+}
+
+/* Metrics */
 div[data-testid="metric-container"] {
     background: #ffffff;
     border: 1px solid #e2e8f0;
     padding: 16px;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
 }
+
+/* Difficulty badges */
+.badge-easy   { background: #ecfdf5; color: #059669; padding: 4px 10px; border-radius: 6px; }
+.badge-medium { background: #fffbeb; color: #d97706; padding: 4px 10px; border-radius: 6px; }
+.badge-hard   { background: #fef2f2; color: #dc2626; padding: 4px 10px; border-radius: 6px; }
+
 </style>
 """, unsafe_allow_html=True)
-
 
 # ─── Sidebar ──────────────────────────────────────────────────────────────────
 
