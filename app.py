@@ -45,34 +45,60 @@ st.set_page_config(
 
 # ─── Global CSS ──────────────────────────────────────────────────────────────
 
+# ─── Global CSS Upgrade ───────────────────────────────────────────────────────
+
 st.markdown("""
 <style>
 /* hide default streamlit menu & footer */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 
-/* difficulty badges */
-.badge-easy   { background:#d4edda; color:#155724; padding:3px 10px; border-radius:12px; font-size:12px; font-weight:600; }
-.badge-medium { background:#fff3cd; color:#856404; padding:3px 10px; border-radius:12px; font-size:12px; font-weight:600; }
-.badge-hard   { background:#f8d7da; color:#721c24; padding:3px 10px; border-radius:12px; font-size:12px; font-weight:600; }
+/* Modern Gradient Headers */
+h1, h2, h3 {
+    background: -webkit-linear-gradient(45deg, #ff6b6b, #4facfe, #00f2fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
 
-/* option button override */
+/* difficulty badges with glassmorphism */
+.badge-easy   { background: rgba(40, 167, 69, 0.15); color: #28a745; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; border: 1px solid rgba(40, 167, 69, 0.3); }
+.badge-medium { background: rgba(255, 193, 7, 0.15); color: #ffc107; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255, 193, 7, 0.3); }
+.badge-hard   { background: rgba(220, 53, 69, 0.15); color: #dc3545; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; border: 1px solid rgba(220, 53, 69, 0.3); }
+
+/* option button override with hover animations */
 div[data-testid="stButton"] > button {
     width: 100%;
     text-align: left;
     padding: 12px 16px;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 14px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(150, 150, 150, 0.2);
+}
+div[data-testid="stButton"] > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    border-color: #4facfe;
 }
 
-/* correct / wrong feedback */
-.feedback-correct { background:#d4edda; color:#155724; padding:12px 16px; border-radius:8px; margin-top:8px; }
-.feedback-wrong   { background:#f8d7da; color:#721c24; padding:12px 16px; border-radius:8px; margin-top:8px; }
+/* correct / wrong feedback bars */
+.feedback-correct { background: rgba(40, 167, 69, 0.05); border-left: 5px solid #28a745; padding:12px 16px; border-radius:4px; margin-top:8px; }
+.feedback-wrong   { background: rgba(220, 53, 69, 0.05); border-left: 5px solid #dc3545; padding:12px 16px; border-radius:4px; margin-top:8px; }
 
-/* metric cards */
-.metric-card { background:#f8f9fa; border-radius:10px; padding:16px; text-align:center; }
-.metric-card h3 { font-size:28px; margin:0; }
-.metric-card p  { font-size:13px; color:#6c757d; margin:0; }
+/* Floating style for Streamlit's native metrics */
+div[data-testid="metric-container"] {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(150, 150, 150, 0.15);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+div[data-testid="metric-container"]:hover {
+    transform: translateY(-3px);
+    border-color: rgba(79, 172, 254, 0.5);
+}
 </style>
 """, unsafe_allow_html=True)
 
