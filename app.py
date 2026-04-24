@@ -47,57 +47,58 @@ st.set_page_config(
 
 # ─── Global CSS Upgrade ───────────────────────────────────────────────────────
 
+# ─── Global CSS Upgrade (Clean & Professional) ────────────────────────────────
+
 st.markdown("""
 <style>
 /* hide default streamlit menu & footer */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 
-/* Modern Gradient Headers */
+/* Clean, high-precision typography */
 h1, h2, h3 {
-    background: -webkit-linear-gradient(45deg, #ff6b6b, #4facfe, #00f2fe);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 800;
+    color: #0f172a; /* Sharp Slate 900 for high contrast */
+    font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
-/* difficulty badges with glassmorphism */
-.badge-easy   { background: rgba(40, 167, 69, 0.15); color: #28a745; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; border: 1px solid rgba(40, 167, 69, 0.3); }
-.badge-medium { background: rgba(255, 193, 7, 0.15); color: #ffc107; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255, 193, 7, 0.3); }
-.badge-hard   { background: rgba(220, 53, 69, 0.15); color: #dc3545; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; border: 1px solid rgba(220, 53, 69, 0.3); }
+/* Subdued, professional badges */
+.badge-easy   { background: #ecfdf5; color: #059669; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; border: 1px solid #a7f3d0; }
+.badge-medium { background: #fffbeb; color: #d97706; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; border: 1px solid #fde68a; }
+.badge-hard   { background: #fef2f2; color: #dc2626; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; border: 1px solid #fecaca; }
 
-/* option button override with hover animations */
+/* Minimalist buttons with snappy hover */
 div[data-testid="stButton"] > button {
     width: 100%;
     text-align: left;
-    padding: 12px 16px;
-    border-radius: 10px;
+    padding: 10px 16px;
+    border-radius: 6px;
     font-size: 14px;
-    transition: all 0.3s ease;
-    border: 1px solid rgba(150, 150, 150, 0.2);
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #334155;
+    border: 1px solid #cbd5e1;
+    transition: all 0.15s ease-in-out;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
 }
 div[data-testid="stButton"] > button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-    border-color: #4facfe;
+    border-color: #3b82f6;
+    color: #1d4ed8;
+    box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.1), 0 2px 4px -1px rgba(59, 130, 246, 0.06);
+    transform: translateY(-1px);
 }
 
-/* correct / wrong feedback bars */
-.feedback-correct { background: rgba(40, 167, 69, 0.05); border-left: 5px solid #28a745; padding:12px 16px; border-radius:4px; margin-top:8px; }
-.feedback-wrong   { background: rgba(220, 53, 69, 0.05); border-left: 5px solid #dc3545; padding:12px 16px; border-radius:4px; margin-top:8px; }
+/* Crisp feedback boxes */
+.feedback-correct { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; padding:12px 16px; border-radius:6px; margin-top:8px; }
+.feedback-wrong   { background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding:12px 16px; border-radius:6px; margin-top:8px; }
 
-/* Floating style for Streamlit's native metrics */
+/* Metric cards - flat and clean */
 div[data-testid="metric-container"] {
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(150, 150, 150, 0.15);
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    transition: transform 0.2s ease;
-}
-div[data-testid="metric-container"]:hover {
-    transform: translateY(-3px);
-    border-color: rgba(79, 172, 254, 0.5);
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 </style>
 """, unsafe_allow_html=True)
