@@ -1,8 +1,17 @@
 [theme]
-primaryColor = "#4c78a8"
-backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#f8f9fa"
-textColor = "#212529"
+# A vibrant, electric primary blue for buttons, sliders, and active states
+primaryColor = "#2563eb"
+
+# A sleek, slightly cool off-white for the main app background
+backgroundColor = "#f8fafc"
+
+# Pure white for the sidebar to create a sharp, floating separation
+secondaryBackgroundColor = "#ffffff"
+
+# High-contrast, deep slate-black for ultra-crisp text readability
+textColor = "#0f172a"
+
+# Modern, clean typography
 font = "sans serif"
 
 [server]
